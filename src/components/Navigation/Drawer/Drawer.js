@@ -5,7 +5,7 @@ import Backdrop from "../../UI/BackDrop/Backdrop";
 
 const links = [
   1, 2, 3
-]
+];
 
 class Drawer extends Component {
 
