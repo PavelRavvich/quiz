@@ -6,8 +6,8 @@ import Backdrop from "../../UI/BackDrop/Backdrop";
 
 const links = [
   {to: '/', label: 'Список', exact: true},
-  {to: '/auth', label: 'Авторизация', exact: true},
-  {to: '/quiz-creator', label: 'Создать тест', exact: true}
+  {to: '/auth/', label: 'Авторизация', exact: false},
+  {to: '/quiz-creator/', label: 'Создать тест', exact: false}
 ];
 
 class Drawer extends Component {
@@ -28,7 +28,6 @@ class Drawer extends Component {
           >
             {link.label}
           </NavLink>
-          {/*<a>Link {link}</a>*/}
         </li>
       )
     })
