@@ -25,6 +25,10 @@
 
 .Drawer ul li {
     margin-bottom: 15px;
+}
+
+.Drawer ul li a {
+    margin-bottom: 15px;
     color: #259c4e;
     font-size: 20px;
     text-decoration: none;
