@@ -28,7 +28,7 @@ const FinishedQuiz = props => {
                 key={index}
               >
                 <strong>{index + 1}</strong>.&nbsp;
-                {quizItem.question}
+                {quizItem.question.value}
                 <i className={cls.join(' ')}/>
               </li>
             )
