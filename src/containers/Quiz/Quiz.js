@@ -10,6 +10,7 @@ import {
   retryQuiz
 } from '../../store/actions/quiz';
 
+
 class Quiz extends Component {
 
   componentDidMount() {
